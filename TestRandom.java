@@ -5,12 +5,15 @@ public  class  TestRandom {
 		int timesRandom = Integer.parseInt(args[0]);
 		int lessThenHalf = 0;
 		int moreThenHalf = 0;
-
+		
+		// making a loop for the given number or time we want to ran Math.random():
 		for (int i = 0; i < timesRandom; i++ ){
 			double randomNumber = (Math.random() );
+			// if the number is more then 0.5:
 			if (randomNumber > 0.5){
 				moreThenHalf++; 
 			}
+			// if the number is less then 0.5 or equal to 0.5:
 			else {
 				lessThenHalf++;
 			}

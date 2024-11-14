@@ -33,6 +33,7 @@ public class Cheers {
                         didIAddedIt = false;
                         
                 }
+                System.out.println("What does that spell?");
                 // making a loop of the given number of times we want to print the name and printing the name:
                 for (int i = 0; i < numberOfTimes; i++ ){
                         System.out.println(name + " ! ! !");

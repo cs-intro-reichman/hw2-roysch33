@@ -27,7 +27,7 @@ public class Cheers {
                         }
                         // if the letter in the name wasn't in the nameList:
                         if (didIAddedIt == false){
-                                System.out.println("Give me a " + name.charAt(i) + ": " +  name.charAt(i) + "!" );
+                                System.out.println("Give me a  " + name.charAt(i) + ": " +  name.charAt(i) + "!" );
                         }
                         // converting the boolean back to false for a new loop:
                         didIAddedIt = false;
